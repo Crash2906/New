@@ -30,7 +30,7 @@ Route.delete('usuario/Delete', 'UsuarioController.Delete').middleware('auth');
 Route.get('usuario/Check' , 'UsuarioController.Check').middleware('auth');
 
 
-
+////prueba XD
 Route.on('/').render('welcome')
 
 Route.post('/insert' , 'UsuarioController.addPost')
